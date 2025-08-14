@@ -44,11 +44,6 @@
             "p5": 55
           },
           "recommendationBarcode": "8901234567890",
-          "productSnapshot": {                   
-            "name": "Hydra+ Serum 30ml",
-            "brand": "SkinLab",
-            "category": "Serum"
-          },
           "createdAt": "2025-08-13T18:36:00.000Z"
         }
       }
@@ -77,11 +72,6 @@
             "p5": 50
           },
           "recommendationBarcode": "8901234567891",
-          "productSnapshot": {
-            "name": "Moisturizing Cream 50ml",
-            "brand": "SkinLab",
-            "category": "Cream"
-          },
           "createdAt": "2025-08-13T18:41:00.000Z"
         }
       }
