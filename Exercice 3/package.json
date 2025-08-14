@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "execute":"tsc regression.ts && node regression.js"
+
+  },
+  "dependencies": {
+
+    "typescript": "^5.9.2"
+  }
+}

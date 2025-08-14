@@ -1,0 +1,90 @@
+{
+  "userInfos": {
+    "u_123": {
+      "userId": "user_123",
+      "firstName": "zakaria",
+      "lastName": "rabhi",
+      "phone": "+212XXXXXXXXX",
+      "email": "zakaria@example.com",
+      "createdAt": "2025-08-13T18:30:00.000Z",
+      "updatedAt": "2025-08-13T18:30:00.000Z"
+    }
+  },
+  "proUsers": {
+    "pro_789": {
+      "proUserId": "pro_789",
+      "name": "proName",                       
+      "contactEmail": "contact@proName.ma",
+      "createdAt": "2025-08-13T18:30:00.000Z",
+      "active": true
+    }
+  },
+  "photos": {
+    "ph_001": {
+      "photoId": "ph_001",
+      "diagnosticPhotoUrl": "https://files.example.com/photos/ph_001.jpg",
+      "takenAt": "2025-08-13T18:35:00.000Z",
+      "capturedById": "user_123",                  
+      "targetInfo": {                            
+        "firstName": "Youssef",
+        "lastName": "El Amrani",
+        "phone": "+212YYYYYYYYY"
+      },
+      "createdAt": "2025-08-13T18:35:00.000Z",
+      "updatedAt": "2025-08-13T18:36:00.000Z",
+      "diagnostics": {                          
+        "diag_1001": {
+          "diagnosticId": "diag_1001",
+          "diagnosedById": "user_123",             
+          "scores": {                           
+            "p1": 87,
+            "p2": 73,
+            "p3": 64,
+            "p4": 92,
+            "p5": 55
+          },
+          "recommendationBarcode": "8901234567890",
+          "productSnapshot": {                   
+            "name": "Hydra+ Serum 30ml",
+            "brand": "SkinLab",
+            "category": "Serum"
+          },
+          "createdAt": "2025-08-13T18:36:00.000Z"
+        }
+      }
+    },
+    "ph_002": {
+      "photoId": "ph_002",
+      "diagnosticPhotoUrl": "https://files.example.com/photos/ph_002.jpg",
+      "takenAt": "2025-08-13T18:40:00.000Z",
+      "capturedById": "pro_789",                
+      "targetInfo": {
+        "firstName": "Youssef",
+        "lastName": "El Amrani",
+        "phone": "+212YYYYYYYYY"
+      },
+      "createdAt": "2025-08-13T18:40:00.000Z",
+      "updatedAt": "2025-08-13T18:41:00.000Z",
+      "diagnostics": {
+        "diag_1002": {
+          "diagnosticId": "diag_1002",
+          "diagnosedById": "pro_789",
+          "scores": {
+            "p1": 80,
+            "p2": 70,
+            "p3": 60,
+            "p4": 90,
+            "p5": 50
+          },
+          "recommendationBarcode": "8901234567891",
+          "productSnapshot": {
+            "name": "Moisturizing Cream 50ml",
+            "brand": "SkinLab",
+            "category": "Cream"
+          },
+          "createdAt": "2025-08-13T18:41:00.000Z"
+        }
+      }
+    }
+  }
+}
